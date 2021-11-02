@@ -14,7 +14,7 @@ def is_anagram(s1, s2):
   s2list = list(s2)
   s2list.sort()
 
-  for i in range(0, len(s1list)):
+  for i in range(len(s1list)):
     if s1list[i] != s2list[i]:
       return False
 
