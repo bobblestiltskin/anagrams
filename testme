@@ -1,0 +1,15 @@
+for x in 1 2 3 4 5
+do
+  ln -sf data/textfile.txt.$x textfile.txt
+  echo "input file"
+  echo "--------------"
+  cat textfile.txt
+  echo
+  echo "output"
+  echo "-------------------"
+  python anagram_finder.py
+  echo '--------------------'
+  echo
+  echo
+done
+rm textfile.txt
