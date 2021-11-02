@@ -13,18 +13,18 @@ which you are looking for anagram sets.
 You do not need to find combinations of words which are anagrams of other combinations of words.
 
 Examples
-|------------------------------------------|
-|Input                   |Output           |
-|------------------------------------------|
-|the quick brown fox     |no anagrams found|
-|------------------------------------------|
-|eat my tea              |eat tea          |
-|------------------------------------------|
-|do or door no no        |no anagrams found|
-|------------------------------------------|
-|pots stop pots spot stop|pots stop spot   |
-|------------------------------------------|
-|on pots no stop eat     |on no            |
-|ate pots spot stop tea  |pots stop spot   |
-|                        |eat ate tea      |
-|------------------------------------------|
+
+| Input                   | Output           |
+|--------------------------------------------|
+| the quick brown fox     | no anagrams found|
+|--------------------------------------------|
+| eat my tea              | eat tea          |
+|--------------------------------------------|
+| do or door no no        | no anagrams found|
+|--------------------------------------------|
+| pots stop pots spot stop| pots stop spot   |
+|--------------------------------------------|
+| on pots no stop eat     | on no            |
+| ate pots spot stop tea  | pots stop spot   |
+|                         | eat ate tea      |
+|--------------------------------------------|
